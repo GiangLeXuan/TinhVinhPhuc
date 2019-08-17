@@ -1,0 +1,278 @@
+/* ----------CONFIG------------------------------ */
+*{
+    margin: 0; padding: 0px;
+   
+}
+/* 
+--------------HEADER--------------------------------
+*/
+.tieude{
+    background-color: #1A335B;
+    color: white;
+    height: 40px;
+    
+    text-decoration: none;
+    position: relative;
+    
+    padding: 10px 20px; 
+    /* display: inline-block; */
+
+}
+ .tieude img{
+    display: inline-block;
+}
+.tieude .icon ul{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+ .tieude .icon ul{
+    list-style: none;
+
+}
+ .tieude .icon ul img{
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+ .tieude .icon ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+/* --------------BẮT ĐẦU PHẦN GIỮA-------------------- */
+.menutop {
+    margin-left:100px;
+    margin-right: 100px;
+    height:50px ;
+    position: relative;
+    background-color:rgb(247, 247, 247);
+    
+}
+.menutop ul{
+    display: flex;
+    background-color:white;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    list-style: none;
+
+}
+.menutop ul li{
+    
+}
+.menutop ._1item{
+    display: block;
+  
+    margin-right: 40px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+.menutop ._1item .icon{
+    color:black;
+    border: 1px solid black ;
+
+}
+
+.menutop ._1item .layer1{
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    transition: 0.4s;
+    text-decoration: none;
+    color: black;
+    
+}
+.menutop ._1item a:hover{
+     color:rgb(72, 228, 215); 
+
+}
+.menutop ._1item .layer2 {}
+.menutop ._1item .layer2 ul{}
+.menutop ._1item .layer2 ul li{}
+.menutop ._1item .layer2 ul li a{}
+
+/* -----------------KET THUC PHẦN GIỮA--------------------- */
+/* ---------------BẮT ĐẦU PHẦN TOP2--------------- */
+.menutop2{
+    background-color: #1A335B;
+    height:25px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.menutop2 .top1{
+}
+.menutop2 .top2{
+    padding-right: 10px;
+    padding-left:1050px;
+}
+/* ------------------------KẾT THÚC PHẦN TOP2------------------- */
+/* ----------------------BẮT ĐẦU PHẦN TABLE------------------------ */
+.content{
+    margin-top: 20px;
+    margin-left: 45px;
+    
+}
+ table._01 {
+    width: 60%;
+    border-collapse: collapse;
+    border-spacing: 5px; 
+}
+table._01 th{
+    color:white;
+    background-color: #159392;
+}
+table._01 th,._01 td{
+    padding: 8px;
+
+}
+table._01 ,th, td{
+    border: 1px solid rgb(17, 16, 16);
+    font-size: 12px;
+    
+}
+table._01  td.do {
+    background-color:#ed1844;
+    
+
+}
+table._01  tr td{
+    background-color:#e8e8e8;
+}
+/* ---------------------Table 02-------------------- */
+table._02 {
+    margin-top: 20px;
+    width: 60%;
+    height:40px;
+    font-size: 12px;
+    border-collapse: collapse;
+    text-align: left;
+    font-family: segoe ui light;
+
+}
+
+table._02 th._021{
+    width: 50%;
+    background-color:#e8e8e8;
+    color: black;
+}
+table._02 th._022{
+    width:25%;
+    background-color: #35b139;
+    color: white;
+}
+table._02 th._023{
+    width:25%;
+    background-color:#e8e8e8;
+    color: black;
+}
+/* -----------------TABLE 03------------------------ */
+table._03 {
+    margin-top: 1px;
+    width: 60%;
+    height:40px;
+    
+    border-collapse: collapse;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+table._03 tr:nth-child(odd) {background-color: #f2f2f2;}
+table._03  td, table._03  th{
+    font-size: 12px;
+    padding: 6px;
+
+}
+table._03  p._03031 {color: #019389;}
+table._03  p._03032 {color: #e75f5f;}
+table._03  td._03033 {
+    background-color: #1283c5;
+    color: #d6ebdc;
+}
+table._03  td._03034 {
+    background-color: #7e7e7e;
+    color: white;
+}
+table._03  td._03035,table._05  td._03035 {
+    background-color: #7e7e7e;
+    color: white;
+}
+table._03  td._03036{
+    background-color: #c31516;
+    color: white;
+}
+
+table._03  td._03031{
+   color: white;
+   background-color: #1da950;
+    padding: 8px;
+   
+} 
+/* -------------------------------KẾT THUC TABLE 3--------------------- */
+/* ---------------------TABLE 4-------------------- */
+table._04 {
+  margin-top: 20px;
+  width: 60%;
+  height: 40px;
+  font-size: 12px;
+  border-collapse: collapse;
+  text-align: left;
+  font-family: segoe ui light;
+}
+table._04 th._041{
+    width: 50%;
+    background-color:#ffffff;
+    color: black;
+}
+table._04 th._042{
+    width:25%;
+    background-color: #229daf;
+    color: white;
+}
+table._04 th._043{
+    width:25%;
+    background-color:#eceaeb;
+    color: black;
+}
+
+/* --------------------KẾT THÚC TABLE 4------------------ */
+/* -----------------BẮT ĐẦUTABLE 05------------------------ */
+table._05 {
+    margin-top: 1px;
+    width: 60%;
+    height:40px;
+    
+    border-collapse: collapse;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+table._05 tr:nth-child(odd) {background-color: #f2f2f2;}
+table._05  td, table._05  th{
+    font-size: 12px;
+    padding: 8px;
+
+}
+table._05  th._05011 {color: #0d6d9d;}
+table._05  td._05013 {
+    background-color: #1283c5;
+    color: #d6ebdc;
+  }
+table._05  td._05016{
+    background-color: #c31516;
+    color: white;
+}
+table._05  td._05012{
+   color: white;
+   background-color: #1da950;
+    padding: 8px;
+   
+} 
+/* -------------------------------KẾT THUC TABLE 5--------------------- */
+/* -----------KẾT THÚC PHẦN TABLE---------------------------------- */
+
+
